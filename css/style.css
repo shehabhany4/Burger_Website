@@ -10,22 +10,13 @@ body {
   background-color: #f4f4f4;
 }
 
-/* .main-header {
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  border-bottom: 1px solid #eee;
-} */
 
 .main-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff; /* أو لون الهيدر */
+  background-color: #fff;     
   z-index: 1000;
   padding: 20px 40px;
   display: flex;
@@ -70,7 +61,7 @@ body {
   bottom: 0;
 }
 main {
-  background-image: url(/assets/images/OIP.jpg);
+  background-image: url(assets/images/OIP.jpg);
   background-size: cover;
   background-position: center;
 }
